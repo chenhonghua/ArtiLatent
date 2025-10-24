@@ -51,6 +51,6 @@ Extensive experiments on furniture-like objects from PartNet-Mobility and ACD da
 
 Official implementation of the paper "ArtiLatent: Realistic Articulated 3D Object Generation via Structured Latents".
 
-Project page is here.
+Project page is [here](https://chenhonghua.github.io/MyProjects/ArtiLatent/).
 
 We plan to release the code by November 2025. Stay arranged!
