@@ -32,7 +32,7 @@ ArtiLatent: Realistic Articulated 3D Object Generation via Structured Latents
 <div class="content has-text-justified">
     <p>
     We propose ArtiLatent, a generative framework that synthesizes human-made 3D objects with fine-grained geometry, accurate articulation, and realistic appearance. Our approach jointly models part geometry and articulation dynamics by embedding sparse voxel representations and associated articulation properties—including joint type, axis, origin, range, and part category—into a unified latent space via a variational autoencoder. A latent diffusion model is then trained over this space to enable diverse yet physically plausible sampling.
-To reconstruct photorealistic 3D shapes, we introduce an articulation-aware Gaussian decoder that accounts for articulation-dependent visibility changes (e.g., revealing the interior of a drawer when opened). By conditioning appearance decoding on articulation state, our method assigns plausible texture features to regions that are typically occluded in static poses, significantly improving visual realism across articulation configurations.
+To reconstruct photorealistic 3D shapes, we introduce an articulation-aware Gaussian decoder that accounts for articulation-dependent visibility changes (\eg, revealing the interior of a drawer when opened). By conditioning appearance decoding on articulation state, our method assigns plausible texture features to regions that are typically occluded in static poses, significantly improving visual realism across articulation configurations.
 Extensive experiments on furniture-like objects from PartNet-Mobility and ACD datasets demonstrate that ArtiLatent outperforms existing approaches in geometric consistency and appearance fidelity. Our framework provides a scalable solution for articulated 3D object synthesis and manipulation.
     </p>
 </div>
@@ -53,4 +53,18 @@ Official implementation of the paper "ArtiLatent: Realistic Articulated 3D Objec
 
 Project page is [here](https://chenhonghua.github.io/MyProjects/ArtiLatent/).
 
-We plan to release the code by November 2025. Stay arranged!
+We plan to release the code by November 2025. Stay tuned!
+
+<section class="section" id="BibTeX">
+<div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>
+@inproceedings{chen2025ArtiLatent,
+  title={ArtiLatent: Realistic Articulated 3D Object Generation via Structured Latents},
+  author={Chen, Honghua and Lan, Yushi and Chen, Yongwei and Pan, Xingang},
+  booktitle={SIGGRAPH Aisa},
+  year={2025}
+}</code></pre>
+</div>
+</section>
+
