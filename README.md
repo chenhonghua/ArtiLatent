@@ -38,7 +38,7 @@ Extensive experiments on furniture-like objects from PartNet-Mobility and ACD da
 </div>
 
 <h2 class="title is-3">Pipeline</h2>
-<img style='height: auto; width: 100%; object-fit: contain' src="images/pipeline">
+<img style='height: auto; width: 100%; object-fit: contain' src="images/pipeline.png">
 <div class="content has-text-justified">
 <p>
     <strong>The overall architecture of ArtiLatent</strong>
