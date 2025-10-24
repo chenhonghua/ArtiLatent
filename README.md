@@ -42,7 +42,7 @@ Extensive experiments on furniture-like objects from PartNet-Mobility and ACD da
 <div class="content has-text-justified">
 <p>
     <strong>The overall architecture of ArtiLatent</strong>
-    Given voxel-level articulation-aware inputs (occupancy, semantics, joint types, bounding boxes, joint parameters, and motion ranges), we encode them into a latent representation using an articulation-aware VAE. A conditional diffusion model samples articulation-aware latent codes under user-specified conditions (\eg, image), which are then decoded into an animatable voxel structure. The final appearance is generated using an articulation-aware Gaussian decoder, producing high-fidelity 3D Gaussian splats with consistent geometry and appearance across motion states.
+    Given voxel-level articulation-aware inputs (occupancy, semantics, joint types, bounding boxes, joint parameters, and motion ranges), we encode them into a latent representation using an articulation-aware VAE. A conditional diffusion model samples articulation-aware latent codes under user-specified conditions (e.g., image), which are then decoded into an animatable voxel structure. The final appearance is generated using an articulation-aware Gaussian decoder, producing high-fidelity 3D Gaussian splats with consistent geometry and appearance across motion states.
 </p>
 </div>
 
