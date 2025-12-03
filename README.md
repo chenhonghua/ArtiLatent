@@ -53,7 +53,6 @@ Official implementation of the paper "ArtiLatent: Realistic Articulated 3D Objec
 
 Project page is [here](https://chenhonghua.github.io/MyProjects/ArtiLatent/).
 
-We plan to release the code by November 2025. Stay tuned!
 
 <section class="section" id="BibTeX">
 <div class="container is-max-desktop content">
