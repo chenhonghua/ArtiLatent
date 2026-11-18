@@ -53,7 +53,9 @@ Official implementation of the paper "ArtiLatent: Realistic Articulated 3D Objec
 
 We have uploaded the code for preparing the dataset. To prepare training data, run `bash prepare.sh` from the repository root. This script renders conditional and state images, voxelizes shapes, and extracts per-voxel DINO features to build the dataset.
 
-Next, we plan to release the training code for the articulated VAE and diffusion model.
+The trained articulated VAE model and the corresponding core code, based on TRELLIS, are available on [Google Drive](https://drive.google.com/file/d/1nNYMJbHgMMgSc61q17ayWRreYjklR9J5/view?usp=sharing).
+
+Next, we plan to release the training code for the diffusion model.
 
 Project page is [here](https://chenhonghua.github.io/MyProjects/ArtiLatent/).
 
